@@ -1,0 +1,89 @@
+header {
+  background-image: url("/home/aditya/Desktop/musicall/src/music.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  background-size: 100% 100%;
+  height: 1000px;
+}
+h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+  color: whitesmoke;
+  text-transform: uppercase;
+  text-shadow: 5px 5px skyblue;
+  font-size: 64px;
+  letter-spacing: 0.3em;
+}
+p.slogan {
+  font-family: cursive;
+  font-style: italic;
+  color: white;
+  text-align: right;
+  font-size: 40px;
+}
+nav {
+  text-align: center;
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  height: 80px;
+}
+
+li.navbar {
+  list-style: none;
+  display: inline-block;
+  margin-left: 110px;
+  cursor: pointer;
+  font-size: 29px;
+  font-weight: 250;
+  margin-top: 2px;
+  color: skyblue;
+  text-align: center;
+}
+.Song {
+  border-radius: 20px;
+  box-shadow: 3px 5px 5px red;
+  border: 2px whitesmoke;
+  width: 300px;
+  height: 50px;
+  position: absolute;
+  margin-left: 43%;
+  margin-top: 90px;
+  color: grey;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bolder;
+}
+.search_bar {
+  width: 60%;
+  margin-left: 20%;
+  height: 50px;
+  margin-top: 80px;
+}
+.recommend {
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+iframe {
+  border-radius: 20px;
+  box-shadow: 3px 5px 5px red;
+  margin-left: 100px;
+  margin-top: 40px;
+}
+.Song_ {
+  border-radius: 20px;
+  box-shadow: 3px 5px 5px red;
+  border: 2px whitesmoke;
+  width: 90px;
+  height: 50px;
+  position: absolute;
+  margin-left: 10px;
+  margin-top: 80px;
+}
+.searchlist {
+  text-align: center;
+  text-decoration: underline;
+  color: red;
+  font-size: 24px;
+  font-family: cursive;
+}
